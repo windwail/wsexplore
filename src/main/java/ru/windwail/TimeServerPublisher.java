@@ -8,5 +8,7 @@ public class TimeServerPublisher {
         // Out of the box, the Endpoint publisher handles one client request at a
         // time
         Endpoint.publish("http://127.0.0.1:9876/ts", new TimeServiceImpl());
+
+
     }
 }
